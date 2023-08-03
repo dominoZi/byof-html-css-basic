@@ -11,6 +11,7 @@ import {
   LastPage,
   MethodicsPage,
   SpecificityPage,
+  UnitsPage,
 } from "./pages";
 
 const router = createBrowserRouter([
@@ -22,6 +23,7 @@ const router = createBrowserRouter([
       { path: "/html-semantic", element: <HtmlSemanticPage /> },
       { path: "/html5", element: <Html5Page /> },
       { path: "/box-model", element: <BoxModelPage /> },
+      { path: "/units", element: <UnitsPage /> },
       { path: "/specificity-and-combinators", element: <SpecificityPage /> },
       { path: "/methodics", element: <MethodicsPage /> },
       { path: "/last", element: <LastPage /> },

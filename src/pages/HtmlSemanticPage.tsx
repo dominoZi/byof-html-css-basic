@@ -16,8 +16,8 @@ export const HtmlSemanticPage = () => {
           </p>
           <ul className="list-disc list-inside my-2">
             <li className="list-item mb-2">
-              Łatwiejsze indeksowanie strony przez Google i wysza pozycja w
-              wynikach wyszukiwania.
+              Łatwiejsze indeksowanie strony przez Google, co przekład się na
+              wyższą pozycja w wynikach wyszukiwania.
             </li>
             <li className="list-item mb-2">
               Ułatwienie dostępu osobom niewidzącym i niedowidzącym do strony
@@ -25,7 +25,7 @@ export const HtmlSemanticPage = () => {
             </li>
             <li className="list-item">
               Bardziej czytelny kod HTML dla developera i łatwiejsze
-              wyszukiwanie elementów
+              wyszukiwanie elementów.
             </li>
           </ul>
           <img

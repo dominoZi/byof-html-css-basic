@@ -37,7 +37,7 @@ export const Aside = (props: HtmlHTMLAttributes<HTMLElement>) => {
       <nav className="mt-4">
         <ul>
           <li>
-            <span className="text-[12px] p-2">HTML</span>
+            <span className="text-[0.75rem] p-2">HTML</span>
           </li>
           <li>
             <MainLink to="/html-semantic" label="HTML semantyka znaczników" />
@@ -46,10 +46,13 @@ export const Aside = (props: HtmlHTMLAttributes<HTMLElement>) => {
             <MainLink to="/html5" label="Co to jest HTML 5" />
           </li>
           <li>
-            <span className="text-[12px] p-2">CSS</span>
+            <span className="text-[0.75rem] p-2">CSS</span>
           </li>
           <li>
             <MainLink to="/box-model" label="Box model" />
+          </li>
+          <li>
+            <MainLink to="/units" label="Units" />
           </li>
           <li>
             <MainLink
